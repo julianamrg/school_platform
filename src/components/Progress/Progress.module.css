@@ -1,0 +1,87 @@
+.progressSection {
+    background-color: #ececec;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.progressOverview {
+    background-color: #1a2d7d;
+    width: auto;
+}
+
+.progressOverview h2 {
+    color: #ffff;
+}
+
+.CircularProgressbar {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #606d74;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: #d6d6d6;
+
+    stroke-linecap: round;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #fed200;
+    font-size: 20px;
+    /*dominant-baseline: middle;*/
+    text-anchor: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-background {
+    fill: #d6d6d6;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted
+    .CircularProgressbar-background {
+    fill: #fed200;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+    fill: #fff;
+    /* color: #f88; */
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+    stroke: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+    stroke: transparent;
+}
+
+.completed {
+    background-color: #2f4087;
+    border-radius: 10px;
+}
+
+.completed h4 {
+    color: #ffff;
+}
+
+.completed p {
+    color: #ffff;
+}
+
+.leftToGo {
+    background-color: #2f4087;
+    border-radius: 10px;
+}
+
+.leftToGo h4 {
+    color: #ffff;
+}
+
+.leftToGo p {
+    color: #ffff;
+}

@@ -1,0 +1,105 @@
+.dashboardContainer {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    width: 70rem;
+
+    background-color: #ececec;
+    font-family: Gilroy-bold;
+    padding-bottom: 2rem;
+}
+
+.dashboardContainer .firstSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboardContainer .firstSection .english {
+    background-color: white;
+}
+
+.dashboardContainer .firstSection .english h2 {
+    margin-top: 15%;
+    color: #143762;
+}
+
+.dashboardContainer .firstSection .english p {
+    color: #9d9bb6;
+    font-weight: bolder;
+}
+
+.dashboardContainer .blueSquare {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.dashboardImage .studentGroup9 {
+    position: absolute;
+    width: 15rem;
+    left: 8rem;
+    bottom: 17.9rem;
+}
+
+.dashboardImage h2 {
+    position: absolute;
+    font-size: 2rem;
+    left: 22rem;
+    bottom: 20rem;
+    color: white;
+}
+
+.dashboardImage p {
+    position: absolute;
+    font-size: 1.3rem;
+    left: 22rem;
+    bottom: 18.5rem;
+    color: white;
+}
+
+.title {
+    color: #143762;
+    font-size: 1.2rem;
+}
+
+.english {
+    display: grid;
+    grid-template-columns: (1, 1fr);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 1px 10px 10px 2px rgba(26, 8, 8, 0.1);
+}
+
+.englishLearning {
+    height: auto;
+    text-align: center;
+}
+.englishLearning p {
+    font-size: 0.7rem;
+}
+
+.englishFlag {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.englishFlag h3 {
+    height: 15px;
+    font-size: 15px;
+}
+
+.englishFlag .UsFlag {
+    height: 22px;
+    width: 22px;
+}
+
+.UsFlag {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Gilroy-bold;
+    src: url("../../Assets/Fonts/Gotham\ Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gilroy-light;
+    src: url("../../Assets/Fonts/Gotham\ Light.otf") format("opentype");
+}
+
+.eventSection {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #ececec;
+}
+
+.eventContainer {
+    background-color: #ececec;
+}
+
+.eventContainer h2 {
+    color: #143762;
+    background-color: #ececec;
+
+    /*display: inline;
+    justify-content: initial;
+    /*flex-wrap: wrap; */
+    /*width: auto; */
+}
+
+.eventSlider {
+    display: inline;
+    float: left;
+    width: auto;
+}
+
+.eventToday {
+    display: inline;
+    width: auto;
+    float: right;
+}
+
+.eventCard {
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+}

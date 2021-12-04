@@ -1,0 +1,186 @@
+.globalNav {
+    background-color: rgb(255, 255, 255);
+    /*border-bottom: 2px solid rgba(0, 0, 0, 0.2); */
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    box-shadow: 2px solid rgba(155, 155, 155, 0.8);
+}
+.globalNavContent {
+    max-width: 1124px;
+    margin: 0 auto;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.navList {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    column-gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.navList a {
+    text-decoration: none;
+    color: black;
+}
+.navListItem {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navListItem:hover {
+    background-color: white;
+    color: #ffcc02;
+}
+
+.navListItem p {
+    margin: 0;
+}
+
+.Search {
+    padding: 5px 0px 5px 15px;
+    width: 100%;
+    height: 2rem;
+    background-color: #f5f5fb;
+    border: 1px rgba(155, 155, 155, 0.8);
+}
+
+.nav__list-item Search:focus {
+    border: 2px solid rgba(88, 88, 88, 0.08);
+}
+
+.btn__question {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    background-color: #3d84ff;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Gilroy-light;
+    border: none;
+    font-weight: bold;
+}
+
+.navListItem .notification {
+    width: 20px;
+    height: 20px;
+}
+
+.navListItem .chaticonly {
+    width: 20px;
+    height: 20px;
+}
+
+.containerPhoto {
+    display: flex;
+    align-items: center;
+}
+
+.photoProfile {
+    width: 55px;
+    height: 55px;
+}
+/*========================= Dropdown ========================= */
+.dropdownLogOut {
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    margin: 0 5px;
+    position: relative;
+    border-radius: 50%;
+}
+.dropdownBtn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdownBtn:hover {
+    color: #ffcc02;
+}
+
+.dropdownContent {
+    position: absolute;
+    top: 56px;
+    right: 0;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    color: #333;
+    width: 145px;
+    border-radius: 10px;
+}
+.dropdownContent a {
+    text-decoration: none;
+    color: black;
+}
+.dropdownOptions {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
+/*========================= End Dropdown ========================= */
+
+@media (max-width: 640px) {
+    .globalNavContent {
+        margin: 0 10px;
+    }
+    .navBar {
+        height: 60px;
+    }
+    .navListItem {
+        height: 60px;
+        width: 90px;
+    }
+    .iconoEducamas {
+        width: 45px;
+        height: 45px;
+    }
+    .photoProfile {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .navListItem {
+        width: 60px;
+    }
+    .navList {
+        column-gap: 10px;
+    }
+    .navListItem {
+        font-size: 14px;
+    }
+    .navListItem p {
+        display: none;
+    }
+}
+
+/*=================== Notification dropdown ======================== */
+
+.NotificationContent {
+    position: absolute;
+    top: 56px;
+    right: 0;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    color: #333;
+    width: 400px;
+}
