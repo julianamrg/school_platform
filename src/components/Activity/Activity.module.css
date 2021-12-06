@@ -1,4 +1,5 @@
 .activitySection {
+    padding-top: 1rem;
     padding-right: 8rem;
     padding-left: 8rem;
     background-color: #ececec;
@@ -7,12 +8,14 @@
 .activityContainer {
     display: inline-block;
     justify-content: initial;
-    width: 1100px;
+    width: 1150px;
     background-color: #ececec;
 }
 
 .activityContainer h2 {
     color: #143762;
+    font-family: Gilroy-bold;
+    padding-bottom: 1rem;
 }
 
 .followers {
@@ -23,6 +26,10 @@
     justify-content: space-evenly;
 }
 
+.followers p {
+    color: grey;
+}
+
 .new_events {
     box-shadow: 1px 10px 10px 2px rgba(26, 8, 8, 0.1);
     background-color: #ffff;
@@ -31,12 +38,20 @@
     justify-content: space-evenly;
 }
 
+.new_events p {
+    color: grey;
+}
+
 .pending {
     box-shadow: 1px 10px 10px 2px rgba(26, 8, 8, 0.1);
     background-color: #ffff;
     margin-bottom: 1rem;
     display: flex;
     justify-content: space-evenly;
+}
+
+.pending p {
+    color: grey;
 }
 
 .arrowRight {

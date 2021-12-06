@@ -13,7 +13,9 @@ const Eventstoday = () => {
             </div>
             <div className={styles.user}>
                 <h4 className={styles.eventTime}>2:30 pm </h4>
-                <h4 className={styles.eventName}>Webinar: the basics of... </h4>
+                <h4 className={styles.eventName}>
+                    Webinar: the basics of... &#128293;{" "}
+                </h4>
             </div>
         </div>
     );

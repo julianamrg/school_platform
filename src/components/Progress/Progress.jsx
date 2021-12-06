@@ -11,36 +11,59 @@ const Progress = () => {
                     <h2>Progress Overview</h2>
                     <ProgressCircularChart />
                 </div>
-                <div className={styles.completed}>
-                    <h4>Completed </h4>
-                    <p> 20 hours </p>
+                <div className={styles.charInformation}>
+                    <div className={styles.completed}>
+                        <h4> &#x1f7e3; Completed </h4>
+                        <p>
+                            {" "}
+                            <b>20</b> hours{" "}
+                        </p>
+                    </div>
+                    <div className={styles.leftToGo}>
+                        <h4> &#x1f7e2; Left to go </h4>
+                        <p>
+                            {" "}
+                            <b>30</b> hours{" "}
+                        </p>
+                    </div>
                 </div>
-                <div className={styles.leftToGo}>
-                    <h4>Left to go </h4>
-                    <p> 30 hours </p>
+            </div>
+            <div className={styles.containerTwo}>
+                <div className={styles.progressTitle}>
+                    <h2>Progress </h2>
                 </div>
-            </div>
-            <div className={styles.progressTitle}>
-                <h2>Progress </h2>
-            </div>
-            <div className={styles.progressCardsContainer}>
-                <p>Total Webinars 9 </p>
-                <p>Pending assignments 0</p>
-                <p>Total units 5 </p>
-                <p>Total readings 14 </p>
-                <p>Total videos 5 </p>
-            </div>
-            <div className={styles.progressConfirm}>
-                <img
-                    src={orangeImage}
-                    alt="logogroup"
-                    className={styles.arrowRight}
-                />
-                <p>
-                    {" "}
-                    Confirm your account details. Please confirm your emain and
-                    account number Hex: &#x1f630;
-                </p>
+                <div className={styles.progressCardsContainer}>
+                    <div className={styles.cards}>
+                        <p>Total Webinars </p>
+                        <h3>9 </h3>
+                    </div>
+                    <div className={styles.cards}>
+                        <p>Pending assignments </p> <h3>0 </h3>
+                    </div>
+
+                    <div className={styles.cards}>
+                        <p>Total units </p> <h3>5 </h3>
+                    </div>
+
+                    <div className={styles.cards}>
+                        <p>Total readings </p> <h3>14 </h3>
+                    </div>
+                    <div className={styles.cardsTotal}>
+                        <p>Total videos 5 </p>{" "}
+                    </div>
+                </div>
+                <div className={styles.progressConfirm}>
+                    <img
+                        src={orangeImage}
+                        alt="logogroup"
+                        className={styles.arrowRight}
+                    />
+                    <p>
+                        {" "}
+                        Confirm your account details. Please confirm your emain
+                        and account number &#x1f630;
+                    </p>
+                </div>
             </div>
         </section>
     );

@@ -9,7 +9,11 @@ const Activity = () => {
     return (
         <section className={styles.activitySection}>
             <div className={styles.activityContainer}>
-                <h2> Activity </h2>
+                <h2>
+                    {" "}
+                    Activity
+                    ________________________________________________________________________{" "}
+                </h2>
                 <div className={styles.followers}>
                     <img
                         src={followers}

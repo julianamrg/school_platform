@@ -1,17 +1,32 @@
 .progressSection {
     background-color: #ececec;
     display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
+    flex-direction: row;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
+/* ============== progress section 1- blue chart ================== */
 .progressOverview {
     background-color: #1a2d7d;
-    width: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.circularChart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .progressOverview h2 {
     color: #ffff;
+    width: 500px;
+}
+
+.circularChart h2 {
+    text-align: center;
 }
 
 .CircularProgressbar {
@@ -34,6 +49,7 @@
 .CircularProgressbar .CircularProgressbar-text {
     fill: #fed200;
     font-size: 20px;
+
     /*dominant-baseline: middle;*/
     text-anchor: middle;
 }
@@ -49,6 +65,7 @@
 
 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
     fill: #fff;
+
     /* color: #f88; */
 }
 
@@ -60,28 +77,118 @@
     stroke: transparent;
 }
 
-.completed {
+.charInformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    margin: 3rem;
+    border-radius: 20px;
     background-color: #2f4087;
-    border-radius: 10px;
+    height: 7.5rem;
+}
+
+.completed {
+    /* background-color: #2f4087;*/
+
+    width: 50%;
 }
 
 .completed h4 {
     color: #ffff;
+    text-align: center;
 }
 
 .completed p {
     color: #ffff;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .leftToGo {
-    background-color: #2f4087;
-    border-radius: 10px;
+    /* background-color: #2f4087;*/
+
+    width: 50%;
+    border-color: white;
+    border-left-style: solid;
 }
 
 .leftToGo h4 {
     color: #ffff;
+    text-align: center;
 }
 
 .leftToGo p {
     color: #ffff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* ==================== Progress section 2========================= */
+.containerTwo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    max-width: 700px;
+}
+
+.progressTitle {
+    width: 500px;
+}
+
+.progressTitle h2 {
+    color: #103460;
+}
+.progressCardsContainer {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.cards {
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 12rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.cards p {
+    color: #9c9ab5;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.cards h3 {
+    color: #103460;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.cardsTotal {
+    background-color: #1883ff;
+    border-radius: 10px;
+    width: 12rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.cardsTotal p {
+    color: #ffff;
+    font-weight: bolder;
+}
+
+/* ==================== Orange image ============================ */
+
+.progressConfirm {
+    position: relative;
+
+    margin-top: auto;
+}
+
+.progressConfirm p {
+    position: absolute;
+    font-size: 0.8rem;
+    color: #fff;
+    left: 6rem;
+    bottom: 1rem;
 }

@@ -9,7 +9,7 @@
 }
 
 .eventSection {
-    padding-left: 10%;
+    padding-left: 8rem;
     padding-right: 1%;
     background-color: #ececec;
     overflow: hidden;
@@ -25,6 +25,8 @@
 .eventContainer h2 {
     color: #143762;
     background-color: #ececec;
+    font-size: 2rem;
+    font-family: Gilroy-bold;
 }
 
 .eventSlider {
