@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/school_platform/static/css/main.6ad14e5d.chunk.css",
+    "main.js": "/school_platform/static/js/main.e660f836.chunk.js",
+    "main.js.map": "/school_platform/static/js/main.e660f836.chunk.js.map",
+    "runtime-main.js": "/school_platform/static/js/runtime-main.5c11086e.js",
+    "runtime-main.js.map": "/school_platform/static/js/runtime-main.5c11086e.js.map",
+    "static/css/2.beb3ea16.chunk.css": "/school_platform/static/css/2.beb3ea16.chunk.css",
+    "static/js/2.eb303315.chunk.js": "/school_platform/static/js/2.eb303315.chunk.js",
+    "static/js/2.eb303315.chunk.js.map": "/school_platform/static/js/2.eb303315.chunk.js.map",
+    "index.html": "/school_platform/index.html",
+    "static/css/2.beb3ea16.chunk.css.map": "/school_platform/static/css/2.beb3ea16.chunk.css.map",
+    "static/css/main.6ad14e5d.chunk.css.map": "/school_platform/static/css/main.6ad14e5d.chunk.css.map",
+    "static/js/2.eb303315.chunk.js.LICENSE.txt": "/school_platform/static/js/2.eb303315.chunk.js.LICENSE.txt",
+    "static/media/3000434.7d5cab1d.png": "/school_platform/static/media/3000434.7d5cab1d.png",
+    "static/media/index.css": "/school_platform/static/media/Gotham Medium.bcd733e6.otf",
+    "static/media/Events.module.css": "/school_platform/static/media/Gotham Light.9cea7310.otf",
+    "static/media/Group 9@3x.52af2fca.png": "/school_platform/static/media/Group 9@3x.52af2fca.png",
+    "static/media/Picture@3x.8627c5cf.png": "/school_platform/static/media/Picture@3x.8627c5cf.png",
+    "static/media/black-and-white.27126a5a.png": "/school_platform/static/media/black-and-white.27126a5a.png",
+    "static/media/header-4@2x.566bbb50.png": "/school_platform/static/media/header-4@2x.566bbb50.png",
+    "static/media/iconmonstr-arrow-left-thin.d468277f.svg": "/school_platform/static/media/iconmonstr-arrow-left-thin.d468277f.svg",
+    "static/media/iconmonstr-arrow-right-thin.377a106d.svg": "/school_platform/static/media/iconmonstr-arrow-right-thin.377a106d.svg",
+    "static/media/pink.9764294e.png": "/school_platform/static/media/pink.9764294e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c11086e.js",
+    "static/css/2.beb3ea16.chunk.css",
+    "static/js/2.eb303315.chunk.js",
+    "static/css/main.6ad14e5d.chunk.css",
+    "static/js/main.e660f836.chunk.js"
+  ]
+}
