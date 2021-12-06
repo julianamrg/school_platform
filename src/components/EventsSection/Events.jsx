@@ -1,23 +1,19 @@
 import React from "react";
 import styles from "../EventsSection/Events.module.css";
-import orangeEvent from "../../Assets/IMG/img/3000434.png";
+import Slideshow from "./Slideshow";
+
 import Eventstoday from "./Eventstoday";
 
 const Events = () => {
     return (
         <section className={styles.eventSection}>
             <div className={styles.eventContainer}>
-                <h2>Events </h2>
                 <div className={styles.eventSlider}>
-                    {/* <Link to="/home"> */}
-                    <img
-                        src={orangeEvent}
-                        alt="logogroup"
-                        className={styles.imageEvent}
-                    />
+                    <h2>Events </h2>
+                    <Slideshow />
                 </div>
                 <div className={styles.eventToday}>
-                    <h3>EVENTS TODAY </h3>
+                    <h3>EVENTS TODAY _______________ </h3>
                     <div className={styles.eventCards}>
                         {/* {news.map((post) => ( */}
                         <Eventstoday />

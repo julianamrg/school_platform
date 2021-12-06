@@ -10,38 +10,52 @@
 
 .eventSection {
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 1%;
     background-color: #ececec;
+    overflow: hidden;
+    width: 1200px;
 }
 
 .eventContainer {
     background-color: #ececec;
+    width: 1200px;
+    display: flex;
 }
 
 .eventContainer h2 {
     color: #143762;
     background-color: #ececec;
-
-    /*display: inline;
-    justify-content: initial;
-    /*flex-wrap: wrap; */
-    /*width: auto; */
 }
 
 .eventSlider {
     display: inline;
     float: left;
     width: auto;
+    overflow: hidden;
 }
 
 .eventToday {
     display: inline;
     width: auto;
     float: right;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.eventToday h3 {
+    color: grey;
 }
 
 .eventCard {
     background-color: #ffff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 0.8rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.eventCard .user h4 {
+    color: black;
+    font-size: 1rem;
 }

@@ -12,8 +12,8 @@ const Eventstoday = () => {
                 <img src={blueEvent} alt="event" />
             </div>
             <div className={styles.user}>
-                <h3 className={styles.eventTime}>2:30 pm </h3>
-                <h3 className={styles.eventName}>Webinar </h3>
+                <h4 className={styles.eventTime}>2:30 pm </h4>
+                <h4 className={styles.eventName}>Webinar: the basics of... </h4>
             </div>
         </div>
     );
